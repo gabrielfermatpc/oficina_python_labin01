@@ -44,10 +44,7 @@ Desenvolver uma calculadora de IMC que recebe peso e altura como entrada e retor
    Relembrar o ambiente configurado no Dia 1.
 
 2. **Introdução ao Problema (30 minutos)**  
-   - Explicar o conceito de IMC e a fórmula utilizada:  
-     \[
-     \text{IMC} = \frac{\text{peso (kg)}}{\text{altura (m)}^2}
-     \]
+   - Explicar o conceito de IMC e a fórmula utilizada
 
 3. **Desenvolvimento (90 minutos)**  
    - Implementação passo a passo no Jupyter Notebook:  
