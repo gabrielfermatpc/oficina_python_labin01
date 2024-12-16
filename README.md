@@ -116,3 +116,35 @@ Empresas de tecnologia, startups e grandes corporações utilizam Python devido 
 
 
 ---
+# Exercício 1
+Faça um programa que recebe 3 notas e calcula a média aritmética entre elas.
+
+---
+
+# Exercício 2
+Melhore o programa do Exercício 1 para que ele, além de calcular a média, exiba também se o aluno foi aprovado ou reprovado. Considere aprovado quem obtiver média maior ou igual a 6.
+
+---
+
+# Exercício 3
+Escreva um script que lê dois números e imprime o maior deles.
+
+---
+
+# Exercício 4
+Escreva um script que lê três números e imprime o maior deles.
+---
+
+# Exercício 5
+Gere um número aleatório entre 1 e 10. Peça ao usuário que adivinhe o número. Informe se o palpite é muito baixo, muito alto ou correto. Continue solicitando palpites até que o usuário acerte.
+
+---
+
+# Exercício 6
+Faça um script que conte de 1 a 100 (usando `while`).
+
+---
+
+# Exercício 7
+Faça um script que conte de 1 a 100 (usando `for`).
+
