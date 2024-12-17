@@ -1,0 +1,46 @@
+/* Estilos gerais */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título */
+#titulo {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Container dos botões */
+.botoes {
+    display: flex;
+    gap: 20px; /* Espaço entre os botões */
+}
+
+/* Botões */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botão "Não" */
+#nao {
+    background-color: red;
+    color: white;
+}
+
+/* Botão "Sim" */
+#sim {
+    background-color: green;
+    color: white;
+}

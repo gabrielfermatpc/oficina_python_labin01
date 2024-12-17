@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me empresta 5 reais</title>
+    <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo CSS -->
+</head>
+<body>
+    <h1 id="titulo">Me empresta 5 reais?</h1>
+    <div class="botoes">
+        <button id="sim" onclick="agradecer()">Sim</button>
+        <button id="nao" onclick="moverNao()">Não</button>
+    </div>
+
+    <script>
+        function moverNao() {
+            const naoButton = document.getElementById("nao");
+            const newX = Math.floor(Math.random() * (window.innerWidth - 100));
+            const newY = Math.floor(Math.random() * (window.innerHeight - 50));
+            naoButton.style.position = "absolute";
+            naoButton.style.left = `${newX}px`;
+            naoButton.style.top = `${newY}px`;
+        }
+
+        function agradecer() {
+            document.getElementById("titulo").innerText = "Muito obrigado!";
+            document.body.style.backgroundColor = "green";
+
+            // Adiciona uma mensagem de agradecimento fixa
+            const msg = document.createElement("p");
+            msg.innerText = "Pode confiar que eu devolvo!";
+            msg.style.fontSize = "20px";
+            msg.style.marginTop = "20px";
+            document.body.appendChild(msg);
+
+            // Remove os botões após o agradecimento
+            document.querySelector(".botoes").style.display = "none";
+        }
+    </script>
+</body>
+</html>
